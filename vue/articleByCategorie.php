@@ -17,7 +17,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">
-                                        <a class="article_title" href="index.php?action=article&id=<?= htmlspecialchars($article->id, ENT_QUOTES, 'UTF-8') ?>">
+                                        <a class="article_title" style="color: inherit;"  href="index.php?action=article&id=<?= htmlspecialchars($article->id, ENT_QUOTES, 'UTF-8') ?>">
                                             <?= htmlspecialchars($article->titre, ENT_QUOTES, 'UTF-8') ?>
                                         </a>
                                     </h5>

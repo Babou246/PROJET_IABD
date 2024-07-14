@@ -10,7 +10,7 @@
 		<?php if (!empty($articles)): ?>
 			<?php foreach ($articles as $article): ?>
 				<div class="article">
-					<h1><a class="article_title"  href="index.php?action=article&id=<?= $article->id ?>"><?= $article->titre ?></a></h1>
+					<h1><a  style="color: inherit;" class="article_title"  href="index.php?action=article&id=<?= $article->id ?>"><?= $article->titre ?></a></h1>
 					<p><?= substr($article->contenu, 0, 300) . '...' ?></p>
 				</div>
 			<?php endforeach ?>
