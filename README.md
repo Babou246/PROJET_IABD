@@ -14,4 +14,4 @@ Cet partie contient notre element principal au lancement de l'appl
 **Lancer l'applicaton** <br>
 php -S localhost:7000 -t public
 
-![alt text](image.png)
+![alt text](C:\Users\Babou\Downloads\PROJET_IABD\assets\img\image.png)
